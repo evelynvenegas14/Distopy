@@ -1,2 +1,7 @@
 # Distopy
 Esta librería está diseñada para los alumnos que cursan la materia de Electromagnetismo. Sirve como un apoyo para hacer cálculos simbólicos para ejercicios de electrostática, usando teoría de distribuciones.
+
+La delta de Dirac es un objeto ampliamente utilizado en física teórica. En cursos de licenciatura, se define informalmente como una función que es infinita en un solo punto y cero en todos los demás. Sin embargo, esta
+definición informal puede llevar a contradicciones graves en la matemática (p. ej., conclusiones como 2 = 1). Además, en la enseñanza del electromagnetismo, es necesario contar con un adecuado entrenamiento para modelar conceptos fundamentales, como la carga puntual.
+
+Para abordar esto, recurrimos al formalismo de la teoría de distribuciones, que amplía nociones del cálculo vectorial. Esto permite trabajar con distribuciones singulares como la delta de Dirac, que no cumplen con las hipótesis de teoremas tradicionales (p. ej., Green y Stokes). Para este fin, desarrollamos una biblioteca en Python que define simbólica y derivativamente la delta de Dirac y operadores diferenciales vectoriales. Esto permite al usuario encontrar soluciones a problemas relacionados con el potencial electrostático y el campo eléctrico, usando las ecuaciones de Maxwell en el vacío, en el sentido de distribuciones. Nuestra finalidad es facilitar cálculos y soluciones claras y eficientes, además de comprobar resultados obtenidos por métodos tradicionales.
